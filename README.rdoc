@@ -1,17 +1,14 @@
 = Knife Slicehost
-This is the official Opscode Knife plugin for Slicehost[http://www.slicehost.com/]
+This is the official Chef Knife plugin for Slicehost[http://www.slicehost.com/]
 This plugin gives knife the ability to create, bootstrap, and manage Slicehost
 slices.
+
+== DEPRECATION
+
+Rackspace has shutdown Slicehost post acquisition so there is no longer a need for this knife plugin
 
 == Installation
 This plugin is distributed as a Ruby Gem. To install it, run:
   gem install knife-slicehost
 Depending on your system configuration, you may need to run this command with
 root privileges.
-
-== Configuration
-TODO
-
-== Usage
-TODO
-
